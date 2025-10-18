@@ -1,5 +1,5 @@
 import sys
-
+import logger
 def error_message_detail(error, error_detail:sys):
     """
     This function is used to get the error message

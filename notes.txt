@@ -1,2 +1,9 @@
 components-we wil import and export these modules
-pipelines-
+pipelines-a process that we apply 
+
+eda student performance file -we are seeing how to clean the dataset
+and in model training we are actually training the modules
+model training-
+numerical and categorical columns
+“Apply OneHotEncoder to all categorical columns, and StandardScaler to all numerical columns.”
+So instead of manually encoding and scaling columns one by one, ColumnTransformer does both in parallel — keeping the feature order and structure intact.
