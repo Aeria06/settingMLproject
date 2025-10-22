@@ -7,3 +7,12 @@ model training-
 numerical and categorical columns
 “Apply OneHotEncoder to all categorical columns, and StandardScaler to all numerical columns.”
 So instead of manually encoding and scaling columns one by one, ColumnTransformer does both in parallel — keeping the feature order and structure intact.
+@dataclass is a decorator in Python that automatically generates some common methods for classes — like:
+
+__init__() (constructor)
+
+__repr__() (string representation)
+
+__eq__() (equality comparison)
+
+So you can create cleaner, shorter code when you just want a class to store data.
